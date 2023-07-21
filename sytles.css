@@ -39,6 +39,8 @@ h1 {
 
 .text-container {
     /* display: flex; */
+    align-content: flex-start;
+    
 }
 
 button {
@@ -47,4 +49,5 @@ button {
     top: 5px;
     left: 6px;
 }
+
 
