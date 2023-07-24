@@ -6,4 +6,52 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Norse Bold', sans-serif;
+    color: var(--txt);
+}
+
+.main-content {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-content, .logo{
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+.background-pic{
+    background-image: url(assets/haileWest.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo {
+    height: auto;
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    /* height: 20vh; */
+}
+
+.logo-img {
+    height: 20vh;
+}
+
+.content-right{
+    width: 60vw;
+    background-color: #ace9d4;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
