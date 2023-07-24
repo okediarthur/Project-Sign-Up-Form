@@ -10,14 +10,50 @@
     <div class="main-content">
       <div class="background-pic">
         <div class="logo">
-          <img src="assets/odin-lined.png" alt="logo" class="logo-img">
+          <img src="assets/odin-lined.png" alt="logo" class="logo-img" />
           <h1 class="Odin">Odin</h1>
         </div>
       </div>
       <div class="content-right">
         <div class="initial-text">
-          <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</p>
+          <p>
+            This is not a real online service! Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Necessitatibus, commodi!
+          </p>
+          <p>Sign up <em>now</em>to get started.</p>
+          <p class="second-paragraph">You <em>know</em>you want to.</p>
         </div>
+        <form action="#">
+          <div class="form-left">
+            <p class="form-title">Let's do this!</p>
+            <div class="input">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" required />
+            </div>
+            <div class="input">
+              <label for="last-name">Last name</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="input">
+              <label for="phone-number">Phone number</label>
+              <input
+                type="text"
+                name="phone-number"
+                id="phone-number"
+                minlength="9"
+                maxlength="9"
+              />
+            </div>
+            <div class="input">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>
