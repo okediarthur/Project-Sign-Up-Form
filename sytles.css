@@ -37,6 +37,7 @@
     padding: 15px 0;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0,0,0, 0.4);
 }
 
 h1{
@@ -75,4 +76,68 @@ h1{
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    /* opacity: 50%; */
+    margin-left: 1.0em;
+}
+
+.form-title{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 1.0em;
+}
+
+input{
+    /* background-color: rgb(2, 2, 2); */
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    margin-left: 2em;
+}
+
+.input{
+    margin-left: 1.6em;
+    text-transform: uppercase;
+
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid var(--color);
+}
+
+.btn{
+    /* background-color:#90ee90; */
+    color: #90ee90;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+}
+
+p, .second-paragraph{
+    margin-left: 1.0em;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color);
+    font-weight: 700;
+}
+
+.log-in{
+    display: flex;
+    gap: 5px;
+    margin-top: 0.8em;
+}
+
+.background-pic{
+    /* opacity: 0%; */
 }
