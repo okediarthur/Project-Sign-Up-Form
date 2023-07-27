@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="sytles.css" />
     <title>Sign-Up-Form</title>
+    <script src="app.js"></script>
   </head>
   <body>
     <div class="main-content">
@@ -23,7 +24,7 @@
           <p>Sign up <em>now </em>to get started.</p>
           <p class="second-paragraph">You <em> know </em>you want to.</p>
         </div>
-        <form action="#">
+        <form method="post" onsubmit="return checkPassword(this);">
           <div class="form left">
             <p class="form-title">Let's do this!</p>
             <div class="input">
@@ -53,11 +54,11 @@
               <input type="password" name="password" id="password" required />
             </div>
             <div class="input">
-              <label for="confirm-password">Confirm password</label>
+              <label for="confirmPassword">Confirm password</label>
               <input
                 type="password"
-                name="confirm-password"
-                id="confirm-password"
+                name="confirmPassword"
+                id="confirmPassword"
                 required
               />
             </div>

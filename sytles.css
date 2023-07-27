@@ -151,3 +151,65 @@ a{
 a:hover{
     color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+    .main-content {
+        flex-flow: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .background-pic{
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        background-size: 100vw;
+    }
+
+    .logo{
+        width: 100vw;
+        position: static;
+        gap: 10px;
+    }
+
+    .content-right{
+        width: auto;
+        height: auto;
+    }
+    .initial-text{
+        width: auto;
+        margin-top: 30px;
+    }
+    .second-paragraph{
+        padding: 20px 0;
+        margin: 0;
+    }
+    .form{
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .input{
+        text-align: left;
+        width: auto;
+        font-size: 0.9em;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        font-size: 0.93em;
+        height: 1.5em;
+        width: 50vw;
+        justify-content: center;
+    }
+    .button, .log-in{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    button{
+        margin-bottom: 0px;
+        width: 50vw;
+        padding: 10px 5px;
+    }
+}
+
